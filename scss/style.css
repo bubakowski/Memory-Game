@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper nav {
+  width: 100%;
+  text-align: center;
+  height: 3%;
+}
+
+.wrapper .gameboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 2% 2% 2%;
+  width: 100%;
+  height: 97%;
+}
+
+.wrapper .gameboard .card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid gray;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  max-height: 33%;
+  width: 33%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.wrapper .gameboard .card:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.brown {
+  background-color: #4d2121;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.hidden {
+  background-color: black;
+}
+
+.matched {
+  background-color: lightgray;
+}
+/*# sourceMappingURL=style.css.map */
